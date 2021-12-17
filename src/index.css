@@ -1,0 +1,47 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    background-color: #ffffff
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+@font-face {
+    font-family: 'Philosopher-Regular';
+    src: url('Font/Philosopher-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Philosopher-Bold';
+    src: url('Font/Philosopher-Bold.ttf');
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #c0bfbf;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #715b3e;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #1e1e1e;
+}

@@ -1,0 +1,151 @@
+.contact {
+    position: relative;
+    background-color: #e0e0e0;
+}
+
+.footer_contact {
+    padding-top: 80px;
+}
+
+.footer_subTitle_text {
+    font-family: 'Philosopher-Bold';
+    text-align: center;
+    line-height: 28px;
+    font-size: 20px;
+    color: #81766e;
+    letter-spacing: 2px;
+}
+
+.footerBlocks {
+    margin: 0 auto;
+    width: 95%;
+    position: relative;
+    padding: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_headText {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.footer_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactUs, .moreUs {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    height: auto;
+}
+
+.footer_title_text {
+    font-family: 'Philosopher-Bold';
+    text-align: center;
+    line-height: 1.27em;
+    letter-spacing: 3px;
+    font-weight: 400;
+    font-size: 45px;
+    color: #715b3e;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 15px 12px;
+    border: none;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    color: #333333;
+    font-size: 15px;
+}
+
+textarea {
+    height: 150px;
+    resize: none;
+}
+
+.contactUs_button {
+    width: 130px;
+    height: 45px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #81766e;
+    background: transparent;
+    border-radius: 3px;
+    cursor: pointer;
+    color: #81766e;
+    text-transform: uppercase;
+    transition: .3s all;
+    font-family: 'Philosopher-Bold';
+    letter-spacing: 2px;
+}
+
+.contactUs_button:hover {
+    background-color: #81766e;
+    color: white;
+    transition: .3s all;
+}
+
+.address {
+    width: 90%;
+    text-align: center;
+    font-family: 'Philosopher-Regular';
+}
+
+.address p {
+    color: #1e1e1e;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+.footNav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.footerNavItem a {
+    letter-spacing: 1px;
+    color: #715b3e;
+    font-family: "Philosopher-Bold";
+}
+.footerNavItem img {
+    width: 32px;
+}
+
+.footerBorder {
+    margin-bottom: 4px;
+    height: 1px;
+    background-color: #715b3e;
+    width: 100%;
+    transition: 0.5s;
+}
+
+.footerNavItem:hover .footerBorder {
+    width: 50%;
+    transition: 0.5s;
+    margin-left: 25%;
+}
+
+.logo {
+    width: 150px;
+}
+
+.logo img {
+    width: 100%;
+}

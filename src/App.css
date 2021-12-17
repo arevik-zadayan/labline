@@ -1,0 +1,413 @@
+.spiner_block {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    background: #e0e0e0;
+    z-index: 99999999;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_title {
+    position: relative;
+    text-transform: uppercase;
+    color: #715b3e;
+    font-family: "Philosopher-Bold";
+    letter-spacing: 3px;
+    text-align: center;
+    line-height: 1.27em;
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.main_title:after {
+    content: "";
+    width: 100px;
+    height: 2px;
+    background-color: #81766e;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width: 1500px) {
+    .box_img, .hover_box {
+        height: 300px;
+    }
+
+    .title_text {
+        letter-spacing: 15px;
+        font-size: 50px;
+    }
+
+    .title .leftRight_img, .title .leftRight_img1 {
+        display: none !important;
+    }
+
+    .copywrite span {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 1250px) {
+    .title_text {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 1150px) {
+    .title_text {
+        width: 55%;
+        margin: auto;
+        line-height: 70px;
+    }
+
+    .footerNavItem {
+        margin: 0 10px;
+    }
+
+    .portfolio_content {
+        flex-wrap: wrap;
+    }
+
+    .content_box {
+        width: 45%;
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 1025px) {
+    .topScrol {
+        display: none !important;
+
+    }
+
+    .portfolios .page_name {
+        display: none;
+    }
+
+    .portfolios .page_name-2 {
+        display: block;
+        margin-top: 0;
+    }
+
+    .title, .portfolioTitles, .contactUs, .moreUs, .aboutUs_background_lines, .adress {
+        width: 100%;
+    }
+
+    .aboutUs_block, .portfolioBlock_titleText_container {
+        width: 80%;
+    }
+
+    .aboutUs_background_lines {
+        left: 0;
+    }
+
+    .portfolioBlock_titleText_container {
+        float: none;
+        margin: 0 auto;
+    }
+
+    .portfolioBlock_imig {
+        width: 60%;
+    }
+
+    .title_text {
+        font-size: 50px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .footerBlocks {
+        flex-direction: column;
+        padding-bottom: 60px;
+    }
+
+    .moreUs {
+        padding-top: 50px;
+    }
+
+    .footer_headText {
+        padding-top: 0;
+    }
+
+    .aboutUs_title {
+        padding-top: 0;
+    }
+
+    .footerBlocks {
+        width: 100%;
+    }
+}
+
+@media (max-width: 920px) {
+    .aboutUsImg {
+        width: 45%;
+    }
+
+    .aboutUsPattern {
+        display: none;
+    }
+
+    .portfolioBlock {
+        flex-direction: column;
+        padding-bottom: 80px;
+    }
+
+    .portfolioBlock_titleText {
+        margin: 0 auto;
+        width: 95%;
+        padding-top: 100px;
+        padding-bottom: 30px;
+    }
+
+    .portfolioBlock_imig {
+        margin: 0 auto;
+        padding-bottom: 30px;
+    }
+
+    .footer_headText {
+        width: 80%;
+    }
+
+    .main_title {
+        font-size: 40px;
+    }
+
+    .content_box {
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 800px) {
+    .button1, .button2 {
+        display: none;
+    }
+
+    .slide1, .slide2, .slide3 {
+        height: 100vh;
+    }
+
+    .rightfooter {
+        width: 50%;
+        right: -50%;
+    }
+
+    .main_title {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 650px) {
+    .head {
+        height: 90px;
+    }
+
+    .title_text {
+        font-size: 40px;
+        width: 100%;
+        line-height: 50px;
+    }
+
+    .sub_title, .title2_text {
+        font-size: 20px;
+    }
+
+    .menu_button {
+        width: 150px;
+        height: 40px;
+        font-size: 12px;
+    }
+
+    .slick-dots {
+        display: none;
+    }
+
+    .about_us_images {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .aboutUsImg {
+        width: 60%;
+        padding: 20px;
+    }
+
+    .contactUs {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .portfolioBlock_titleText {
+        padding-top: 50px;
+    }
+
+    .footer_contact {
+        padding: 50px 0;
+    }
+
+    .aboutUs_block {
+        padding: 50px 0;
+    }
+
+    .aboutUs {
+        padding-bottom: 0;
+    }
+
+    .portfolioBlock {
+        padding-bottom: 40px;
+    }
+
+    .footerBlocks {
+        padding-bottom: 10px;
+    }
+
+    .menu_button:hover .lineButton2 {
+        display: none;
+    }
+
+    .menu_button:hover .lineButton {
+        display: none;
+    }
+
+    .content_box {
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    .portfolio_content {
+        margin: 40px auto 0 auto;
+    }
+
+    .aboutUs_subTitle2 {
+        width: 100%;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .title_text2 {
+        font-size: 50px;
+        letter-spacing: 15px;
+    }
+
+    .sub_title {
+        font-size: 16px;
+    }
+
+    .title_text {
+        font-size: 30px;
+        letter-spacing: 10px;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .aboutUs_block, .footer_headText {
+        width: 95%;
+    }
+
+    .portfolioBlock_titleText_container {
+        width: 100%;
+    }
+
+    .footer_title_text, .portfolioHeadText, .aboutUs_title_text {
+        font-size: 30px !important;
+        letter-spacing: 7px;
+    }
+
+    .footerBlocks, .aboutUs_subTitle2 {
+        padding: 30px 0 0px;
+    }
+
+    .aboutUs_title2_text {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .aboutUs_subTitle {
+        padding-top: 50px;
+    }
+
+    .footerNavItem a {
+        letter-spacing: 3px;
+    }
+
+    .copywrite {
+        height: 70px;
+    }
+
+    .aboutUs_title, .footer_title {
+        justify-content: center;
+    }
+
+    .box_img, .hover_box {
+        height: 200px;
+    }
+
+    .box_text p {
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+
+}
+
+@media (max-width: 400px) {
+    .aboutUs_subTitle, .aboutUs_subTitle2, .footerBlocks {
+        padding-top: 20px !important;
+    }
+
+    .aboutUsImg, .portfolioBlock_imig {
+        width: 80%;
+    }
+
+    .moreUs {
+        padding-top: 30px;
+    }
+
+    .moreUs .logo {
+        margin: 15px;
+    }
+
+    .adress p {
+        line-height: 1.5;
+        /* letter-spacing: 0; */
+    }
+
+    .main_title {
+        font-size: 25px;
+    }
+
+
+}
+
+@media (max-width: 360px) {
+    .leftRight_img {
+        display: none;
+    }
+
+    .title_text2 {
+        font-size: 40px;
+        letter-spacing: 5px;
+    }
+
+    .title_text {
+        letter-spacing: 3px;
+        font-size: 25px;
+    }
+
+    .main_title {
+        font-size: 20px;
+    }
+
+}
